@@ -1,0 +1,12 @@
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.Modelos\bin\Debug\netcoreapp3.1\Mecanica.Modelos.deps.json
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.Modelos\bin\Debug\netcoreapp3.1\Mecanica.Modelos.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.Modelos\obj\Debug\netcoreapp3.1\Mecanica.Modelos.csprojAssemblyReference.cache
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.Modelos\obj\Debug\netcoreapp3.1\Mecanica.Modelos.AssemblyInfoInputs.cache
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.Modelos\obj\Debug\netcoreapp3.1\Mecanica.Modelos.AssemblyInfo.cs
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.Modelos\bin\Debug\netcoreapp3.1\Mecanica.Modelos.runtimeconfig.json
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.Modelos\bin\Debug\netcoreapp3.1\Mecanica.Modelos.runtimeconfig.dev.json
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.Modelos\bin\Debug\netcoreapp3.1\Mecanica.Modelos.pdb
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.Modelos\obj\Debug\netcoreapp3.1\Mecanica.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.Modelos\obj\Debug\netcoreapp3.1\Mecanica.Modelos.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.Modelos\obj\Debug\netcoreapp3.1\Mecanica.Modelos.pdb
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.Modelos\obj\Debug\netcoreapp3.1\Mecanica.Modelos.genruntimeconfig.cache

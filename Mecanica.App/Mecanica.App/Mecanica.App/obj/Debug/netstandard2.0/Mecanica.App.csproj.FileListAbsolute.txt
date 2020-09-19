@@ -1,0 +1,12 @@
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.App\Mecanica.App\Mecanica.App\bin\Debug\netstandard2.0\Mecanica.App.deps.json
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.App\Mecanica.App\Mecanica.App\bin\Debug\netstandard2.0\Mecanica.App.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.App\Mecanica.App\Mecanica.App\bin\Debug\netstandard2.0\Mecanica.App.pdb
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.App\Mecanica.App\Mecanica.App\obj\Debug\netstandard2.0\Mecanica.App.csprojAssemblyReference.cache
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.App\Mecanica.App\Mecanica.App\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.App\Mecanica.App\Mecanica.App\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.App\Mecanica.App\Mecanica.App\obj\Debug\netstandard2.0\Mecanica.App.AssemblyInfoInputs.cache
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.App\Mecanica.App\Mecanica.App\obj\Debug\netstandard2.0\Mecanica.App.AssemblyInfo.cs
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.App\Mecanica.App\Mecanica.App\obj\Debug\netstandard2.0\Mecanica.App.csproj.CoreCompileInputs.cache
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.App\Mecanica.App\Mecanica.App\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.App\Mecanica.App\Mecanica.App\obj\Debug\netstandard2.0\Mecanica.App.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.App\Mecanica.App\Mecanica.App\obj\Debug\netstandard2.0\Mecanica.App.pdb
