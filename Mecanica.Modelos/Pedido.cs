@@ -9,11 +9,11 @@ namespace Mecanica.Modelos
     {
         public Pedido()
         {
-
+            Id = Guid.NewGuid();
         }
 
         [Key]
-        public int Id { get; set; }
+        public Guid Id { get; set; }
 
         public TipoDeServico TipoDeServico { get; set; }
         

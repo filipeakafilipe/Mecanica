@@ -1,0 +1,12 @@
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica_GitHub\Mecanica\Mecanica.Repositorios\bin\Debug\netcoreapp2.1\Mecanica.Repositorios.deps.json
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica_GitHub\Mecanica\Mecanica.Repositorios\bin\Debug\netcoreapp2.1\Mecanica.Repositorios.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica_GitHub\Mecanica\Mecanica.Repositorios\bin\Debug\netcoreapp2.1\Mecanica.Repositorios.pdb
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica_GitHub\Mecanica\Mecanica.Repositorios\bin\Debug\netcoreapp2.1\Mecanica.Modelos.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica_GitHub\Mecanica\Mecanica.Repositorios\bin\Debug\netcoreapp2.1\Mecanica.Modelos.pdb
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica_GitHub\Mecanica\Mecanica.Repositorios\obj\Debug\netcoreapp2.1\Mecanica.Repositorios.csprojAssemblyReference.cache
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica_GitHub\Mecanica\Mecanica.Repositorios\obj\Debug\netcoreapp2.1\Mecanica.Repositorios.AssemblyInfoInputs.cache
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica_GitHub\Mecanica\Mecanica.Repositorios\obj\Debug\netcoreapp2.1\Mecanica.Repositorios.AssemblyInfo.cs
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica_GitHub\Mecanica\Mecanica.Repositorios\obj\Debug\netcoreapp2.1\Mecanica.Repositorios.csproj.CoreCompileInputs.cache
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica_GitHub\Mecanica\Mecanica.Repositorios\obj\Debug\netcoreapp2.1\Mecanica.Repositorios.csproj.CopyComplete
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica_GitHub\Mecanica\Mecanica.Repositorios\obj\Debug\netcoreapp2.1\Mecanica.Repositorios.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica_GitHub\Mecanica\Mecanica.Repositorios\obj\Debug\netcoreapp2.1\Mecanica.Repositorios.pdb
