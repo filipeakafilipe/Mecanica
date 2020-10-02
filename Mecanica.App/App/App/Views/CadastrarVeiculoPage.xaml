@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="App.Views.CadastrarVeiculoPage"
+             Title="{Binding Title}">
+
+    <StackLayout>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="1"
+                        Placeholder="Marca"
+                        Text="{Binding Marca}"/>
+                <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="2"
+                        Placeholder="Nome"
+                        Text="{Binding Nome}"/>
+                <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="3"
+                        Placeholder="Especificação"
+                        Text="{Binding Especificacao}"/>
+                <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="4"
+                        Placeholder="Ano"
+                        Text="{Binding Ano}"/>
+                <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="5"
+                        Placeholder="Modelo"
+                        Text="{Binding Modelo}"/>
+                <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="6"
+                        Placeholder="Kilometragem"
+                        Text="{Binding Kilometragem}"/>
+                <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="7"
+                        Placeholder="Placa"
+                        Text="{Binding Placa}"/>
+                <Button Grid.Column="0" Grid.ColumnSpan="1" Grid.Row="8"
+                Text="Cadastrar" BackgroundColor="#2296f3" TextColor="White" Command="{Binding CadastrarCommand}"/>
+            </Grid>
+
+        </ScrollView>
+    </StackLayout>
+  
+</ContentPage>

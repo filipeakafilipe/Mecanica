@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="App.Views.AlterarUsuarioPage"
+             Title="{Binding Title}">
+
+    <StackLayout>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Picker Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" Title="Selecionar Perfil de Usuário" 
+                        ItemDisplayBinding="{Binding Value}"
+                        ItemsSource="{Binding PickerItemList}"
+                        SelectedItem="{Binding SelectedItem}"/>
+                <Editor Grid.Column="0" Grid.ColumnSpan="2" Grid.Row ="2"
+                        Text="{Binding Nome}"/>
+                <Editor Grid.Column="0" Grid.ColumnSpan="2" Grid.Row ="3"
+                        Text="{Binding Telefone}"/>
+                <Editor Grid.Column="0" Grid.ColumnSpan="2" Grid.Row ="4"
+                        Text="{Binding Usuario}"/>
+                <Editor Grid.Column="0" Grid.ColumnSpan="2" Grid.Row ="5"
+                        Text="{Binding Senha}"/>
+                <Editor Grid.Column="0" Grid.ColumnSpan="2" Grid.Row ="6"
+                        Text="{Binding SenhaConfirmada}"/>
+                <Button Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="7"
+                        Text="Alterar" BackgroundColor="#2296f3" TextColor="White" Command="{Binding AlterarCommand}"/>
+            </Grid>
+
+        </ScrollView>
+    </StackLayout>
+    
+</ContentPage>

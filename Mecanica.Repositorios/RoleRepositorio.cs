@@ -12,7 +12,7 @@ namespace Mecanica.Repositorios
 
         }
 
-        public Role Get(Guid id)
+        public Role Get(int id)
         {
             return db.Roles.Where(v => v.Id == id).FirstOrDefault();
         }
@@ -24,7 +24,7 @@ namespace Mecanica.Repositorios
             db.SaveChanges();
         }
 
-        public void Remover(Guid id)
+        public void Remover(int id)
         {
             var role = db.Roles.Where(v => v.Id == id).FirstOrDefault();
 
@@ -33,7 +33,7 @@ namespace Mecanica.Repositorios
             db.SaveChanges();
         }
 
-        public void Atualizar(Guid id, Role novaRole)
+        public void Atualizar(int id, Role novaRole)
         {
             var role = Get(id);
 

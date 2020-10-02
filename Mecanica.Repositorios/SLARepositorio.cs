@@ -12,7 +12,7 @@ namespace Mecanica.Repositorios
 
         }
 
-        public SLA Get(Guid id)
+        public SLA Get(int id)
         {
             return db.SLAs.Where(v => v.Id == id).FirstOrDefault();
         }
@@ -24,7 +24,7 @@ namespace Mecanica.Repositorios
             db.SaveChanges();
         }
 
-        public void Remover(Guid id)
+        public void Remover(int id)
         {
             var SLA = db.SLAs.Where(v => v.Id == id).FirstOrDefault();
 
@@ -33,7 +33,7 @@ namespace Mecanica.Repositorios
             db.SaveChanges();
         }
 
-        public void Atualizar(Guid id, SLA novoSLA)
+        public void Atualizar(int id, SLA novoSLA)
         {
             var SLA = Get(id);
 

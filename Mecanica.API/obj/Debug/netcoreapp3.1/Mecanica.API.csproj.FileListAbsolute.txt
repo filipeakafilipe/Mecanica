@@ -1,0 +1,128 @@
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Mecanica.API.exe
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Mecanica.API.deps.json
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Mecanica.API.runtimeconfig.json
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Mecanica.API.runtimeconfig.dev.json
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Mecanica.API.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Mecanica.API.pdb
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Mecanica.Modelos.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Mecanica.Repositorios.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Mecanica.Modelos.pdb
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\bin\Debug\netcoreapp3.1\Mecanica.Repositorios.pdb
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\obj\Debug\netcoreapp3.1\Mecanica.API.csprojAssemblyReference.cache
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\obj\Debug\netcoreapp3.1\Mecanica.API.AssemblyInfoInputs.cache
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\obj\Debug\netcoreapp3.1\Mecanica.API.AssemblyInfo.cs
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\obj\Debug\netcoreapp3.1\Mecanica.API.csproj.CoreCompileInputs.cache
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\obj\Debug\netcoreapp3.1\Mecanica.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\obj\Debug\netcoreapp3.1\Mecanica.API.RazorTargetAssemblyInfo.cache
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\obj\Debug\netcoreapp3.1\Mecanica.API.csproj.CopyComplete
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\obj\Debug\netcoreapp3.1\staticwebassets\Mecanica.API.StaticWebAssets.Manifest.cache
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\obj\Debug\netcoreapp3.1\staticwebassets\Mecanica.API.StaticWebAssets.xml
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\obj\Debug\netcoreapp3.1\Mecanica.API.dll
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\obj\Debug\netcoreapp3.1\Mecanica.API.pdb
+C:\Users\Victor\Source\Repos\Grupo 7 - LDSI\Mecanica.API\obj\Debug\netcoreapp3.1\Mecanica.API.genruntimeconfig.cache
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Mecanica.API.exe
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Mecanica.API.deps.json
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Mecanica.API.runtimeconfig.json
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Mecanica.API.runtimeconfig.dev.json
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Mecanica.API.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Mecanica.API.pdb
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Mecanica.Modelos.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Mecanica.Repositorios.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Mecanica.Modelos.pdb
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\bin\Debug\netcoreapp3.1\Mecanica.Repositorios.pdb
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\obj\Debug\netcoreapp3.1\Mecanica.API.csprojAssemblyReference.cache
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\obj\Debug\netcoreapp3.1\Mecanica.API.AssemblyInfoInputs.cache
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\obj\Debug\netcoreapp3.1\Mecanica.API.AssemblyInfo.cs
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\obj\Debug\netcoreapp3.1\Mecanica.API.csproj.CoreCompileInputs.cache
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\obj\Debug\netcoreapp3.1\Mecanica.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\obj\Debug\netcoreapp3.1\Mecanica.API.RazorTargetAssemblyInfo.cache
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\obj\Debug\netcoreapp3.1\Mecanica.API.csproj.CopyComplete
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\obj\Debug\netcoreapp3.1\staticwebassets\Mecanica.API.StaticWebAssets.Manifest.cache
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\obj\Debug\netcoreapp3.1\staticwebassets\Mecanica.API.StaticWebAssets.xml
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\obj\Debug\netcoreapp3.1\Mecanica.API.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\obj\Debug\netcoreapp3.1\Mecanica.API.pdb
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.API\obj\Debug\netcoreapp3.1\Mecanica.API.genruntimeconfig.cache

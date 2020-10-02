@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace Mecanica.Modelos
@@ -9,28 +10,22 @@ namespace Mecanica.Modelos
     {
         public Pedido()
         {
-            Id = Guid.NewGuid();
+            
         }
 
         [Key]
-        public Guid Id { get; set; }
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Id { get; set; }
 
-        public TipoDeServico TipoDeServico { get; set; }
-        
-        [Required]
-        public virtual int TipoDeServicoId { get; set; }
-
-        //[Required]
-        //public Perfil Perfil { get; set; }
-
-        //[Required]
-        //public virtual int PerfilId { get; set; }
+        public virtual TipoDeServico TipoDeServico { get; set; }
 
         [Required]
-        public Veiculo Veiculo { get; set; }
+        public int TipoDeServicoId { get; set; }
+
+        public virtual Veiculo Veiculo { get; set; }
 
         [Required]
-        public virtual int VeiculoId { get; set; }
+        public int VeiculoId { get; set; }
 
         [Required]
         public double ValorMaoDeObra { get; set; }
@@ -39,6 +34,9 @@ namespace Mecanica.Modelos
         public double ValorPecas { get; set; }
 
         [Required]
-        public double ValorTotal { get; set; }
+        public string SLA { get; set; }
+
+        //[Required]
+        //public double ValorTotal { get; set; }
     }
 }

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="App.Views.LoginPage"
+             Title="{Binding Title}">
+
+
+    <NavigationPage.TitleView>
+        <Label Text="Entrar" HorizontalTextAlignment="Center" TextColor="White" FontSize="22"/>
+    </NavigationPage.TitleView>
+
+    <ScrollView>
+        <StackLayout Orientation="Vertical">
+            <Image Source="logo" WidthRequest="250"></Image>
+
+            <Entry x:Name="txtUser" Placeholder="Usuário" TextColor="Black" ></Entry>
+
+            <Entry x:Name="txtPass" Placeholder="Senha" TextColor="Black" IsPassword="True"></Entry>
+
+            <StackLayout Orientation="Horizontal"  HorizontalOptions="FillAndExpand">
+                <StackLayout Orientation="Vertical"  HorizontalOptions="Start" VerticalOptions="Center">
+                    <CheckBox x:Name="chkLembrar" Color="#2296f3" ></CheckBox>
+                </StackLayout>
+                <StackLayout Orientation="Vertical"  HorizontalOptions="End" VerticalOptions="Center">
+                    <Label Text="Lembrar-se" ></Label>
+                </StackLayout>
+            </StackLayout>
+
+            <Button x:Name="btnLogin" Text="Entrar" HorizontalOptions="Center" BackgroundColor="#2296f3" TextColor="White" Command="{Binding MenuPageCommand}"></Button>
+
+        </StackLayout>
+    </ScrollView>
+    
+</ContentPage>

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace Mecanica.Modelos
@@ -9,14 +10,14 @@ namespace Mecanica.Modelos
     {
         public Veiculo()
         {
-            Id = Guid.NewGuid();
+            
         }
 
         [Key]
-        public Guid Id { get; set; }
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Id { get; set; }
 
-        [Required]
-        public Perfil Perfil { get; set; }
+        public virtual Perfil Perfil { get; set; }
 
         [Required]
         public virtual int PerfilId { get; set; }

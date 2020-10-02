@@ -1,6 +1,7 @@
 ﻿using Mecanica.Modelos;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Mecanica.Repositorios
@@ -11,7 +12,7 @@ namespace Mecanica.Repositorios
         {
         }
 
-        public Veiculo Get(Guid id)
+        public Veiculo Get(int id)
         {
             return db.Veiculos.Where(v => v.Id == id).FirstOrDefault();
         } 
@@ -23,7 +24,7 @@ namespace Mecanica.Repositorios
             db.SaveChanges();
         }
 
-        public void Remover(Guid id)
+        public void Remover(int id)
         {
             var veiculo = db.Veiculos.Where(v => v.Id == id).FirstOrDefault();
 
@@ -32,15 +33,40 @@ namespace Mecanica.Repositorios
             db.SaveChanges();
         }
 
-        public void Atualizar(Guid id, Veiculo novoVeiculo)
+        public void Atualizar(int id, Veiculo novoVeiculo)
         {
             var veiculo = Get(id);
 
-            veiculo = novoVeiculo;
+            veiculo.Ano = novoVeiculo.Ano;
+            veiculo.Especificacao = novoVeiculo.Especificacao;
+            veiculo.Kilometragem = novoVeiculo.Kilometragem;
+            veiculo.Marca = novoVeiculo.Marca;
+            veiculo.Modelo = novoVeiculo.Modelo;
+            veiculo.Nome = novoVeiculo.Nome;
+            veiculo.Placa = novoVeiculo.Placa;
 
             db.Entry(veiculo).State = EntityState.Modified;
 
             db.SaveChanges();
+        }
+
+        public List<Veiculo> GetTodos()
+        {
+            var perfis = db.Perfils.ToList();
+
+            var veiculos = db.Veiculos.ToList();
+
+            veiculos.ForEach(v =>
+            {
+                v.Perfil = perfis.Where(p => p.Id == v.PerfilId).FirstOrDefault();
+            });
+
+            return veiculos;
+        }
+
+        public List<Veiculo> GetVeiculoCliente(int perfilId)
+        {
+            return db.Veiculos.Where(v => v.PerfilId == perfilId).ToList();
         }
     }
 }

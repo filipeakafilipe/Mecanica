@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Mecanica_GitHub\\Mecanica\\Mecanica.API\\Mecanica.API.csproj": {}
+    "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Projeto\\Mecanica.API\\Mecanica.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Mecanica_GitHub\\Mecanica\\Mecanica.API\\Mecanica.API.csproj": {
+    "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Projeto\\Mecanica.API\\Mecanica.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Mecanica_GitHub\\Mecanica\\Mecanica.API\\Mecanica.API.csproj",
+        "projectUniqueName": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Projeto\\Mecanica.API\\Mecanica.API.csproj",
         "projectName": "Mecanica.API",
-        "projectPath": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Mecanica_GitHub\\Mecanica\\Mecanica.API\\Mecanica.API.csproj",
+        "projectPath": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Projeto\\Mecanica.API\\Mecanica.API.csproj",
         "packagesPath": "C:\\Users\\Filipe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Mecanica_GitHub\\Mecanica\\Mecanica.API\\obj\\",
+        "outputPath": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Projeto\\Mecanica.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,11 +32,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Mecanica_GitHub\\Mecanica\\Mecanica.Modelos\\Mecanica.Modelos.csproj": {
-                "projectPath": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Mecanica_GitHub\\Mecanica\\Mecanica.Modelos\\Mecanica.Modelos.csproj"
+              "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Projeto\\Mecanica.Modelos\\Mecanica.Modelos.csproj": {
+                "projectPath": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Projeto\\Mecanica.Modelos\\Mecanica.Modelos.csproj"
               },
-              "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Mecanica_GitHub\\Mecanica\\Mecanica.Repositorios\\Mecanica.Repositorios.csproj": {
-                "projectPath": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Mecanica_GitHub\\Mecanica\\Mecanica.Repositorios\\Mecanica.Repositorios.csproj"
+              "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Projeto\\Mecanica.Repositorios\\Mecanica.Repositorios.csproj": {
+                "projectPath": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Projeto\\Mecanica.Repositorios\\Mecanica.Repositorios.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Mecanica_GitHub\\Mecanica\\Mecanica.Modelos\\Mecanica.Modelos.csproj": {
+    "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Projeto\\Mecanica.Modelos\\Mecanica.Modelos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Mecanica_GitHub\\Mecanica\\Mecanica.Modelos\\Mecanica.Modelos.csproj",
+        "projectUniqueName": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Projeto\\Mecanica.Modelos\\Mecanica.Modelos.csproj",
         "projectName": "Mecanica.Modelos",
-        "projectPath": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Mecanica_GitHub\\Mecanica\\Mecanica.Modelos\\Mecanica.Modelos.csproj",
+        "projectPath": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Projeto\\Mecanica.Modelos\\Mecanica.Modelos.csproj",
         "packagesPath": "C:\\Users\\Filipe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Mecanica_GitHub\\Mecanica\\Mecanica.Modelos\\obj\\",
+        "outputPath": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Projeto\\Mecanica.Modelos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -144,14 +144,14 @@
         }
       }
     },
-    "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Mecanica_GitHub\\Mecanica\\Mecanica.Repositorios\\Mecanica.Repositorios.csproj": {
+    "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Projeto\\Mecanica.Repositorios\\Mecanica.Repositorios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Mecanica_GitHub\\Mecanica\\Mecanica.Repositorios\\Mecanica.Repositorios.csproj",
+        "projectUniqueName": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Projeto\\Mecanica.Repositorios\\Mecanica.Repositorios.csproj",
         "projectName": "Mecanica.Repositorios",
-        "projectPath": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Mecanica_GitHub\\Mecanica\\Mecanica.Repositorios\\Mecanica.Repositorios.csproj",
+        "projectPath": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Projeto\\Mecanica.Repositorios\\Mecanica.Repositorios.csproj",
         "packagesPath": "C:\\Users\\Filipe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Mecanica_GitHub\\Mecanica\\Mecanica.Repositorios\\obj\\",
+        "outputPath": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Projeto\\Mecanica.Repositorios\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -172,8 +172,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Mecanica_GitHub\\Mecanica\\Mecanica.Modelos\\Mecanica.Modelos.csproj": {
-                "projectPath": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Mecanica_GitHub\\Mecanica\\Mecanica.Modelos\\Mecanica.Modelos.csproj"
+              "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Projeto\\Mecanica.Modelos\\Mecanica.Modelos.csproj": {
+                "projectPath": "C:\\Users\\Filipe\\Desktop\\Etc\\PUC_Documentos\\Mecanica\\Projeto\\Mecanica.Modelos\\Mecanica.Modelos.csproj"
               }
             }
           }

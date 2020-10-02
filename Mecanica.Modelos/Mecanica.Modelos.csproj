@@ -5,6 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20200920004725_AdicionaTabelasIniciais.cs" />
+    <Compile Remove="Migrations\20200920004725_AdicionaTabelasIniciais.Designer.cs" />
+    <Compile Remove="Migrations\20200921220542_TrocaIdsParaInt.cs" />
+    <Compile Remove="Migrations\20200921220542_TrocaIdsParaInt.Designer.cs" />
+    <Compile Remove="Migrations\20200930015215_VirtualVeiculoEPedido.cs" />
+    <Compile Remove="Migrations\20200930015215_VirtualVeiculoEPedido.Designer.cs" />
+    <Compile Remove="Migrations\20200930200552_AddPerfilIdEmPedido.cs" />
+    <Compile Remove="Migrations\20200930200552_AddPerfilIdEmPedido.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8">

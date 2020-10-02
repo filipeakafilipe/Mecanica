@@ -28,13 +28,6 @@ namespace Mecanica.API.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
-            // EXEMPLO DE COMO UTILIZAR O BD
-            var unidade = new UnidadeDeTrabalho();
-            unidade.SLARepositorio.Adicionar(new SLA() { Nome = "ASRJASERIAHSIEAH" });
-
-
-
-
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
