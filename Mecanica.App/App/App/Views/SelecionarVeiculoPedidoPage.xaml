@@ -7,6 +7,10 @@
              Title="{Binding Title}">
 
     <StackLayout>
+        <StackLayout>
+            <Label x:Name="Veiculos2" FontSize="20" HorizontalTextAlignment="Center" Text="Selecionar Veículo" HorizontalOptions="Fill"  TextColor="Black"></Label>
+            <Label x:Name="Veiculos3" FontSize="5" HorizontalTextAlignment="Center" HorizontalOptions="Fill" BackgroundColor="#2296f3" TextColor="White" ></Label>
+        </StackLayout>
         <ScrollView>
             <Grid>
                 <Grid.RowDefinitions>

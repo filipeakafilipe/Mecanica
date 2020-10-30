@@ -14,7 +14,7 @@ namespace App.ViewModels
     {
         public SelecionarVeiculoPedidoPageViewModel(INavigationService navigationService) : base(navigationService)
         {
-            Title = "Selecionar veículo";
+            Title = "Veículos";
 
             SelectedVeiculoPedidoChangeCommand = new Command(async () =>
             {

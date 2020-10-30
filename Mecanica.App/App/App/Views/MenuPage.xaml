@@ -7,19 +7,132 @@
              Title="{Binding Title}">
 
     <StackLayout>
-        <ScrollView>
-            <StackLayout>
-                <Button Text="Cadastrar Usuário" Command="{Binding CriarPerfilCommand}" Margin="20, 7, 20, 0" BackgroundColor="#2296f3" TextColor="White"/>
-                <Button Text="Acompanhamento de Usuários" Command="{Binding AcompanhamentoPerfilCommand}" Margin="20, 0" BackgroundColor="#2296f3" TextColor="White"/>
-                <Button Text="Cadastrar Veículo" Command="{Binding SelecionarUsuarioVeiculoCommand}" Margin="20, 0" BackgroundColor="#2296f3" TextColor="White"/>
-                <Button Text="Acompanhamento Veículo" Command="{Binding AcompanhamentoVeiculoCommand}" Margin="20, 0" BackgroundColor="#2296f3" TextColor="White"/>
-                <Button Text="Cadastrar Pedido" Command="{Binding SelecionarUsuarioPedidoCommand}" Margin="20, 0" BackgroundColor="#2296f3" TextColor="White"/>
-                <Button Text="Acompanhamento de Pedidos" Command="{Binding AcompanhamentoPedidoCommand}" Margin="20, 0" BackgroundColor="#2296f3" TextColor="White"/>
-                <Button Text="Acompanhamento de Manutenções Ativas" Command="{Binding AcompanhamentoPedidosAtuaisCommand}" Margin="20, 0" BackgroundColor="#2296f3" TextColor="White"/>
-                <Button Text="Cadastrar Tipo de Serviço" Command="{Binding CriarTipoDeServicoCommand}" Margin="20, 0" BackgroundColor="#2296f3" TextColor="White"/>
-                <Button Text="Acompanhamento de Tipo de Serviço" Command="{Binding AcompanhamentoTipoDeServicoCommand}" Margin="20, 0" BackgroundColor="#2296f3" TextColor="White"/>
-            </StackLayout>
+        <ScrollView Padding="1,6,1,1">
+
+
+            <Grid x:Name="MainGrid" Padding="50,0,50,0">
+
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.33*" />
+                    <ColumnDefinition Width="0.33*" />
+                </Grid.ColumnDefinitions>
+
+
+
+                <Button Text="Cadastrar Usuário"
+            x:Name="btn1"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="Center"
+            HeightRequest="{Binding Width, Source={x:Reference btn1}}"
+            Grid.Row="0"
+            Grid.Column="0"
+            BackgroundColor="#2296f3"
+            TextColor="White"
+            Command="{Binding CriarPerfilCommand}"/>
+
+                <Button Text="Alterar Usuários"
+            x:Name="btn2"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="Center"
+            WidthRequest="{Binding Width, Source={x:Reference btn1}}"
+            HeightRequest="{Binding Width, Source={x:Reference btn2}}"
+            Grid.Row="0"
+            Grid.Column="1"
+            BackgroundColor="#2296f3"
+            TextColor="White"
+            Command="{Binding AcompanhamentoPerfilCommand}"/>
+
+                <Button Text="Cadastrar Veículo"
+             x:Name="btn3"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="Center"
+            WidthRequest="{Binding Width, Source={x:Reference btn1}}"
+            HeightRequest="{Binding Width, Source={x:Reference btn3}}"
+            Grid.Row="1"
+            Grid.Column="0"
+                        BackgroundColor="#2296f3"
+            TextColor="White"
+            Command="{Binding SelecionarUsuarioVeiculoCommand}"/>
+
+                <Button Text="Alterar Veículo"
+            x:Name="btn4"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="Center"
+                    WidthRequest="{Binding Width, Source={x:Reference btn1}}"
+            HeightRequest="{Binding Width, Source={x:Reference btn4}}"
+            Grid.Row="1"
+            Grid.Column="1"
+                        BackgroundColor="#2296f3"
+            TextColor="White"
+            Command="{Binding AcompanhamentoVeiculoCommand}"/>
+
+                <Button Text="Cadastrar Pedido"
+            x:Name="btn5"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="Center"
+                    WidthRequest="{Binding Width, Source={x:Reference btn1}}"
+            HeightRequest="{Binding Width, Source={x:Reference btn5}}"
+            Grid.Row="2"
+            Grid.Column="0"
+                        BackgroundColor="#2296f3"
+            TextColor="White"
+            Command="{Binding SelecionarUsuarioPedidoCommand}"/>
+
+                <Button Text="Alterar Pedido"
+             x:Name="btn6"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="Center"
+                    WidthRequest="{Binding Width, Source={x:Reference btn1}}"
+            HeightRequest="{Binding Width, Source={x:Reference btn6}}"
+            Grid.Row="2"
+            Grid.Column="1"
+                        BackgroundColor="#2296f3"
+            TextColor="White"
+            Command="{Binding AcompanhamentoPedidoCommand}"/>
+
+                <Button Text="Cadastrar Tipo de Serviço"
+             x:Name="btn7"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="Center"
+                    WidthRequest="{Binding Width, Source={x:Reference btn1}}"
+            HeightRequest="{Binding Width, Source={x:Reference btn7}}"
+            Grid.Row="3"
+            Grid.Column="0"
+                        BackgroundColor="#2296f3"
+            TextColor="White"
+            Command="{Binding CriarTipoDeServicoCommand}"/>
+
+                <Button Text="Alterar Tipo de Serviço"
+             x:Name="btn8"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="Center"
+                    WidthRequest="{Binding Width, Source={x:Reference btn1}}"
+            HeightRequest="{Binding Width, Source={x:Reference btn8}}"
+            Grid.Row="3"
+            Grid.Column="1"
+                        BackgroundColor="#2296f3"
+            TextColor="White"
+            Command="{Binding AcompanhamentoTipoDeServicoCommand}"/>
+
+                <Button Text="Manutenções ativas"
+            x:Name="btn9"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="Center"
+            HeightRequest="{Binding Width, Source={x:Reference btn9}}"
+            Grid.Row="4"
+            Grid.Column="0"
+            BackgroundColor="#2296f3"
+            TextColor="White"
+            Command="{Binding AcompanhamentoPedidosAtuaisCommand}"/>
+
+            </Grid>
         </ScrollView>
+
     </StackLayout>
-    
+
+
 </ContentPage>

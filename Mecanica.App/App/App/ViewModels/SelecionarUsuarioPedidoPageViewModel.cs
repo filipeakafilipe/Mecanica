@@ -14,7 +14,7 @@ namespace App.ViewModels
     {
         public SelecionarUsuarioPedidoPageViewModel(INavigationService navigationService) : base(navigationService)
         {
-            Title = "Selecionar usuário";
+            Title = "Usuários";
 
             try
             {

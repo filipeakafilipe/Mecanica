@@ -25,7 +25,7 @@ namespace App.ViewModels
                 {
                     var user = PerfilService.Logar(usuario).Result;
 
-                        usuarioLogadoService.SetUsuarioLogado(user);
+                    usuarioLogadoService.SetUsuarioLogado(user);
 
                     if (user.RoleId == (int)RolesEnum.Administrador)
                     {
@@ -40,7 +40,7 @@ namespace App.ViewModels
                         await navigationService.NavigateAsync("MenuClientePage");
                     }
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     await navigationService.NavigateAsync("LoginPage");
                 }

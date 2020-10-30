@@ -23,7 +23,7 @@
                         Margin="30,0,30,0"
                         Placeholder="Nome"
                         Text="{Binding Nome}"/>
-                <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="2"
+                <Entry Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="2"
                         FontSize="18"
                         Margin="30,0,30,0"
                         Placeholder="Observações"

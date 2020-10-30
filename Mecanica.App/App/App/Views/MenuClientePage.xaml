@@ -6,14 +6,52 @@
              x:Class="App.Views.MenuClientePage"
              Title="{Binding Title}">
 
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Meu Perfil" Command="{Binding PerfilCommand}" IconImageSource="user3" ></ToolbarItem>
+    </ContentPage.ToolbarItems>
+
     <StackLayout>
-        <ScrollView>
-            <StackLayout>
-                <Button Text="Meu Perfil" Command="{Binding PerfilCommand}" Margin="20, 7, 20, 0" BackgroundColor="#2296f3" TextColor="White"/>
-                <Button Text="Meus Veículos" Command="{Binding MeusVeiculosCommand}" Margin="20, 0" BackgroundColor="#2296f3" TextColor="White"/>
-                <Button Text="Minhas Manutenções" Command="{Binding MinhasManutencoesCommand}" Margin="20, 0" BackgroundColor="#2296f3" TextColor="White"/>
-            </StackLayout>
+        <ScrollView Padding="1,6,1,1">
+
+
+            <Grid x:Name="MainGrid" Padding="50,0,50,0">
+
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.33*" />
+                    <ColumnDefinition Width="0.33*" />
+                </Grid.ColumnDefinitions>
+
+                <Button Text="Meus Veiculus"
+             x:Name="btn1"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="Center"
+            WidthRequest="{Binding Width, Source={x:Reference btn1}}"
+            HeightRequest="{Binding Width, Source={x:Reference btn1}}"
+            Grid.Row="0"
+            Grid.Column="0"
+            BackgroundColor="#306ee3"
+            TextColor="White"
+            Command="{Binding MeusVeiculosCommand}"/>
+
+                <Button Text="Minhas Manutenções"
+             x:Name="btn2"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="Center"
+            WidthRequest="{Binding Width, Source={x:Reference btn1}}"
+            HeightRequest="{Binding Width, Source={x:Reference btn2}}"
+            Grid.Row="0"
+            Grid.Column="1"
+                        BackgroundColor="#306ee3"
+            TextColor="White"
+            Command="{Binding MinhasManutencoesCommand}"/>
+
+            </Grid>
         </ScrollView>
+
     </StackLayout>
 
 </ContentPage>

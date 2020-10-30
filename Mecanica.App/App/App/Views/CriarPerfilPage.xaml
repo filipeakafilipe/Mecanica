@@ -50,7 +50,7 @@
                     Placeholder="Confirme a senha"
                     Text="{Binding SenhaConfirmada}"/>
                 <Button Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="7"
-                Text="Cadastrar" Padding="20" Margin="30,0,30,0" BackgroundColor="#2296f3" TextColor="White" Command="{Binding CadastrarCommand}"/>
+                Text="Cadastrar"  Margin="30,0,30,0" BackgroundColor="#2296f3" TextColor="White" Command="{Binding CadastrarCommand}"/>
                
                 
                 

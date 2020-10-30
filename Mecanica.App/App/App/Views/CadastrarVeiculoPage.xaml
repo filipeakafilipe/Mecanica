@@ -17,47 +17,61 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="1"
+                <Entry Grid.Column="0" Grid.ColumnSpan="2" Grid.Row ="1"
                         Placeholder="Marca"
+                       FontSize="18"
                         Text="{Binding Marca}"
+                       BackgroundColor="#e9eeed"
                         Margin="30,0,30,0"
                         />
-                <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="2"
+                <Entry Grid.Column="0" Grid.ColumnSpan="2" Grid.Row ="2"
                         Placeholder="Nome"
+                       FontSize="18"
                         Text="{Binding Nome}"
+                       BackgroundColor="#e9eeed"
                         Margin="30,0,30,0"
                        />
-                <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="3"
+                <Entry Grid.Column="0" Grid.ColumnSpan="2" Grid.Row ="3"
                         Placeholder="Especificação"
+                       FontSize="18"
                         Text="{Binding Especificação}"
+                       BackgroundColor="#e9eeed"
                         Margin="30,0,30,0"
                        />
-                <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="4"
+                <Entry Grid.Column="0" Grid.ColumnSpan="2" Grid.Row ="4"
                         Placeholder="Ano"
+                       FontSize="18"
                         Text="{Binding Ano}"
+                       BackgroundColor="#e9eeed"
                         Margin="30,0,30,0"
                         />
-                <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="5"
+                <Entry Grid.Column="0" Grid.ColumnSpan="2" Grid.Row ="5"
                         Placeholder="Modelo"
+                       FontSize="18"
                         Text="{Binding Modelo}"
+                       BackgroundColor="#e9eeed"
                         Margin="30,0,30,0"
                         />
-                <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="6"
+                <Entry Grid.Column="0" Grid.ColumnSpan="2" Grid.Row ="6"
                         Placeholder="Kilometragem"
+                       BackgroundColor="#e9eeed"
+                       FontSize="18"
                         Margin="30,0,30,0"
                         Text="{Binding Kilometragem}"/>
-                <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="7"
+                <Entry Grid.Column="0" Grid.ColumnSpan="2" Grid.Row ="7"
                         Placeholder="Placa"
                         Margin="30,0,30,0"
+                       FontSize="18"
+                       BackgroundColor="#e9eeed"
                         Text="{Binding Placa}"/>
-                <Button Grid.Column="0" Grid.ColumnSpan="1" Grid.Row="8"
-                Text="Cadastrar" BackgroundColor="#2296f3" Padding="20" HorizontalOptions="Center" TextColor="White" Command="{Binding CadastrarCommand}"/>
+                <Button Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="8"
+                Text="Cadastrar" BackgroundColor="#2296f3" Margin="30,0,30,0"  TextColor="White" Command="{Binding CadastrarCommand}"/>
             </Grid>
 
         </ScrollView>

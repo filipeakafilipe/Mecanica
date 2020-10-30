@@ -18,14 +18,14 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="1"
+                <Entry Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="1"
                         Placeholder="Nome"
                         Text="{Binding Nome}"/>
                 <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="2"
                         Placeholder="Observações"
                         Text="{Binding Observacoes}"/>
                 <Button Grid.Column="0" Grid.ColumnSpan="1" Grid.Row="3"
-                        Text="Cadastrar" BackgroundColor="#2296f3" TextColor="White" Command="{Binding CadastrarCommand}"/>
+                        Text="Cadastrar" BackgroundColor="#2296f3" Margin="30,0,30,0" TextColor="White" Command="{Binding CadastrarCommand}"/>
             </Grid>
 
         </ScrollView>

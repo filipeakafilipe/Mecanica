@@ -24,14 +24,16 @@
                 </Grid.ColumnDefinitions>
 
                 <Picker Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" Title="Selecionar tipo de serviço" 
+                        Margin="30,0,30,0"
                         ItemDisplayBinding="{Binding Value}"
                         ItemsSource="{Binding PickerItemList}"
                         SelectedItem="{Binding SelectedItem}"/>
                 <Picker Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" Title="Selecionar SLA" 
+                        Margin="30,0,30,0"
                         ItemDisplayBinding="{Binding Value}"
                         ItemsSource="{Binding PickerSLAItemList}"
                         SelectedItem="{Binding SelectedSLAItem}"/>
-                <Editor Grid.Column="0" Grid.ColumnSpan="2" Grid.Row ="3"
+                <Entry Grid.Column="0" Grid.ColumnSpan="2" Grid.Row ="3"
                         Placeholder="Valor de mão de obra"
                         Text="{Binding ValorMaoDeObra}"/>
                 <Editor Grid.Column="0" Grid.ColumnSpan="2" Grid.Row ="4"

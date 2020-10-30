@@ -7,11 +7,36 @@
              Title="{Binding Title}">
 
     <StackLayout>
-        <ScrollView>
-            <StackLayout>
-                <Button Text="Acompanhamento de Manutenções Ativas" Command="{Binding AcompanhamentoPedidosAtuaisCommand}" Margin="20, 7, 20, 0" BackgroundColor="#2296f3" TextColor="White"/>
-            </StackLayout>
+        <ScrollView Padding="1,6,1,1">
+
+
+            <Grid x:Name="MainGrid" Padding="50,0,50,0">
+
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="auto" />
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.33*" />
+                    <ColumnDefinition Width="0.33*" />
+                </Grid.ColumnDefinitions>
+
+
+
+                <Button Text="Manutenções ativas"
+            x:Name="btn1"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="Center"
+            HeightRequest="{Binding Width, Source={x:Reference btn1}}"
+            Grid.Row="0"
+            Grid.Column="0"
+            BackgroundColor="#2296f3"
+            TextColor="White"
+            Command="{Binding AcompanhamentoPedidosAtuaisCommand}"/>
+
+            </Grid>
         </ScrollView>
+
     </StackLayout>
 
 </ContentPage>
