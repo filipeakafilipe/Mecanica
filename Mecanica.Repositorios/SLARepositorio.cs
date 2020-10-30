@@ -1,6 +1,7 @@
 ﻿using Mecanica.Modelos;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Mecanica.Repositorios
@@ -15,6 +16,11 @@ namespace Mecanica.Repositorios
         public SLA Get(int id)
         {
             return db.SLAs.Where(v => v.Id == id).FirstOrDefault();
+        }
+
+        public List<SLA> GetTodos()
+        {
+            return db.SLAs.ToList();
         }
 
         public void Adicionar(SLA sla)
@@ -37,11 +43,14 @@ namespace Mecanica.Repositorios
         {
             var SLA = Get(id);
 
-            SLA = novoSLA;
+            if(SLA != null)
+            {
+                SLA.Nome = novoSLA.Nome;
 
-            db.Entry(SLA).State = EntityState.Modified;
+                db.Entry(SLA).State = EntityState.Modified;
 
-            db.SaveChanges();
+                db.SaveChanges();
+            }
         }
     }
 }

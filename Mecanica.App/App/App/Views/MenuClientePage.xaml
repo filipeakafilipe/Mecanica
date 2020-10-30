@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="App.Views.MenuClientePage"
+             Title="{Binding Title}">
+
+    <StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <Button Text="Meu Perfil" Command="{Binding PerfilCommand}" Margin="20, 7, 20, 0" BackgroundColor="#2296f3" TextColor="White"/>
+                <Button Text="Meus Veículos" Command="{Binding MeusVeiculosCommand}" Margin="20, 0" BackgroundColor="#2296f3" TextColor="White"/>
+                <Button Text="Minhas Manutenções" Command="{Binding MinhasManutencoesCommand}" Margin="20, 0" BackgroundColor="#2296f3" TextColor="White"/>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+
+</ContentPage>

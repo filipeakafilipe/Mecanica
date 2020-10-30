@@ -1,4 +1,5 @@
 ﻿using App.Modelos;
+using App.Dictionary;
 using App.Services;
 using Prism.Commands;
 using Prism.Mvvm;
@@ -104,7 +105,7 @@ namespace App.ViewModels
             set { SetProperty(ref _SenhaConfirmada, value); }
         }
 
-        private Dictionary<int, string> Roles = new Roles().Nomes;
+        private Dictionary<int, string> Roles = new RoleDictionary().Nomes;
 
         public Command AlterarCommand { get; }
 

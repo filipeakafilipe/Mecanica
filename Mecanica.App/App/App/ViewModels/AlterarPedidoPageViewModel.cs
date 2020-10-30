@@ -1,4 +1,5 @@
 ﻿using App.Modelos;
+using App.Dictionary;
 using App.Services;
 using Prism.Commands;
 using Prism.Mvvm;
@@ -89,7 +90,7 @@ namespace App.ViewModels
 
         public Command AlterarCommand { get; }
 
-        private Dictionary<int, string> SLAs = new SLAs().Nomes;
+        private Dictionary<int, string> SLAs = new SLADictionary().Nomes;
 
         public List<KeyValuePair<int, string>> PickerSLAItemList
         {

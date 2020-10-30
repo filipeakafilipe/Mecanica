@@ -18,14 +18,19 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="1"
+                <Entry Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="1" 
+                        FontSize="18"
+                        Margin="30,0,30,0"
                         Placeholder="Nome"
                         Text="{Binding Nome}"/>
                 <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="2"
+                        FontSize="18"
+                        Margin="30,0,30,0"
                         Placeholder="Observações"
-                        Text="{Binding Observacoes}"/>
+                        Text="{Binding Observações}"/>
                 <Button Grid.Column="0" Grid.ColumnSpan="1" Grid.Row="3"
-                        Text="Alterar" BackgroundColor="#2296f3" TextColor="White" Command="{Binding AlterarCommand}"/>
+                        Margin="30,0,30,0"
+                        Text="Salvar" BackgroundColor="#2296f3" TextColor="White" Command="{Binding AlterarCommand}"/>
             </Grid>
 
         </ScrollView>

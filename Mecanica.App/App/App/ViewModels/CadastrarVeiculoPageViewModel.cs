@@ -17,28 +17,28 @@ namespace App.ViewModels
             Title = "Cadastrar veículo";
 
             CadastrarCommand = new Command(async () =>
-            {
-                var veiculo = new Veiculo()
                 {
-                    PerfilId = Id,
-                    Marca = Marca,
-                    Nome = Nome,
-                    Especificacao = Especificacao,
-                    Ano = int.Parse(Ano),
-                    Modelo = Modelo,
-                    Kilometragem = int.Parse(Kilometragem),
-                    Placa = Placa
-                };
+                    var veiculo = new Veiculo()
+                    {
+                        PerfilId = Id,
+                        Marca = Marca,
+                        Nome = Nome,
+                        Especificacao = Especificacao,
+                        Ano = int.Parse(Ano),
+                        Modelo = Modelo,
+                        Kilometragem = int.Parse(Kilometragem),
+                        Placa = Placa
+                    };
 
-                try
-                {
-                    await VeiculoService.Cadastrar(veiculo);
-                }
-                catch
-                {
-                    await navigationService.NavigateAsync("MenuPage");
-                }
-            });
+                    try
+                    {
+                        await VeiculoService.Cadastrar(veiculo);
+                    }
+                    catch
+                    {
+                        await navigationService.NavigateAsync("MenuPage");
+                    }
+                });
         }
 
         public override void OnNavigatedTo(INavigationParameters parameters)

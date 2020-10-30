@@ -1,0 +1,3 @@
+{
+  "DefaultConnection":  "Data Source=(localDB)\\MSSQLLocalDB;Initial Catalog=Mecanica;Integrated Security=True;"
+}

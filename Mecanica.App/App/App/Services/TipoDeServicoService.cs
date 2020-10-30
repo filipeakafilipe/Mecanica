@@ -13,17 +13,38 @@ namespace App.Services
     {
         public static async Task Cadastrar(TipoDeServico tipoDeServico)
         {
+            try
+            {
             await $"{Base.Uri}api/tipodeservico".PostJsonAsync(tipoDeServico);
+            }
+            catch
+            {
+                throw new Exception();
+            }
         }
 
         public static Task<List<TipoDeServico>> GetTipoDeServicos()
         {
+            try
+            {
             return $"{Base.Uri}api/tipodeservico/todos".GetJsonAsync<List<TipoDeServico>>();
+            }
+            catch
+            {
+                throw new Exception();
+            }
         }
 
         public static async Task Alterar(TipoDeServico tipoDeServico)
         {
+            try
+            {
             await $"{Base.Uri}api/tipodeservico/".PutJsonAsync(tipoDeServico);
+            }
+            catch
+            {
+                throw new Exception();
+            }
         }
     }
 }

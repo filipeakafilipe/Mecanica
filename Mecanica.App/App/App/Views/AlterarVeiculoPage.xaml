@@ -23,27 +23,42 @@
                 </Grid.ColumnDefinitions>
 
                 <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="1"
+                        FontSize="18"
+                        Margin="30,0,30,0"
                         Placeholder="Marca"
                         Text="{Binding Marca}"/>
                 <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="2"
+                        FontSize="18"
+                        Margin="30,0,30,0"
                         Placeholder="Nome"
                         Text="{Binding Nome}"/>
                 <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="3"
+                        FontSize="18"
+                        Margin="30,0,30,0"
                         Placeholder="Especificação"
-                        Text="{Binding Especificacao}"/>
+                        Text="{Binding Especificação}"/>
                 <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="4"
+                        FontSize="18"
+                        Margin="30,0,30,0"
                         Placeholder="Ano"
                         Text="{Binding Ano}"/>
                 <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="5"
+                        FontSize="18"
+                        Margin="30,0,30,0"
                         Placeholder="Modelo"
                         Text="{Binding Modelo}"/>
                 <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="6"
+                        FontSize="18"
+                        Margin="30,0,30,0"
                         Placeholder="Kilometragem"
                         Text="{Binding Kilometragem}"/>
                 <Editor Grid.Column="0" Grid.ColumnSpan="1" Grid.Row ="7"
+                        FontSize="18"
+                        Margin="30,0,30,0"
                         Placeholder="Placa"
                         Text="{Binding Placa}"/>
                 <Button Grid.Column="0" Grid.ColumnSpan="1" Grid.Row="8"
+                        Margin="30,0,30,0"
                 Text="Alterar" BackgroundColor="#2296f3" TextColor="White" Command="{Binding AlterarCommand}"/>
             </Grid>
 

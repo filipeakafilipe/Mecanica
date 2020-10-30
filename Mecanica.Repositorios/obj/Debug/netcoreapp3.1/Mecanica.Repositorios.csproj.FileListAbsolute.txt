@@ -22,3 +22,27 @@ C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.Repositori
 C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.Repositorios\obj\Debug\netcoreapp3.1\Mecanica.Repositorios.csproj.CopyComplete
 C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.Repositorios\obj\Debug\netcoreapp3.1\Mecanica.Repositorios.dll
 C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Mecanica\Mecanica.Repositorios\obj\Debug\netcoreapp3.1\Mecanica.Repositorios.pdb
+C:\Users\danie\Source\Repos\Grupo 7 - LDSI\Mecanica.Repositorios\bin\Debug\netcoreapp3.1\Mecanica.Repositorios.deps.json
+C:\Users\danie\Source\Repos\Grupo 7 - LDSI\Mecanica.Repositorios\bin\Debug\netcoreapp3.1\Mecanica.Repositorios.dll
+C:\Users\danie\Source\Repos\Grupo 7 - LDSI\Mecanica.Repositorios\bin\Debug\netcoreapp3.1\Mecanica.Repositorios.pdb
+C:\Users\danie\Source\Repos\Grupo 7 - LDSI\Mecanica.Repositorios\bin\Debug\netcoreapp3.1\Mecanica.Modelos.dll
+C:\Users\danie\Source\Repos\Grupo 7 - LDSI\Mecanica.Repositorios\bin\Debug\netcoreapp3.1\Mecanica.Modelos.pdb
+C:\Users\danie\Source\Repos\Grupo 7 - LDSI\Mecanica.Repositorios\obj\Debug\netcoreapp3.1\Mecanica.Repositorios.csprojAssemblyReference.cache
+C:\Users\danie\Source\Repos\Grupo 7 - LDSI\Mecanica.Repositorios\obj\Debug\netcoreapp3.1\Mecanica.Repositorios.AssemblyInfoInputs.cache
+C:\Users\danie\Source\Repos\Grupo 7 - LDSI\Mecanica.Repositorios\obj\Debug\netcoreapp3.1\Mecanica.Repositorios.AssemblyInfo.cs
+C:\Users\danie\Source\Repos\Grupo 7 - LDSI\Mecanica.Repositorios\obj\Debug\netcoreapp3.1\Mecanica.Repositorios.csproj.CoreCompileInputs.cache
+C:\Users\danie\Source\Repos\Grupo 7 - LDSI\Mecanica.Repositorios\obj\Debug\netcoreapp3.1\Mecanica.Repositorios.csproj.CopyComplete
+C:\Users\danie\Source\Repos\Grupo 7 - LDSI\Mecanica.Repositorios\obj\Debug\netcoreapp3.1\Mecanica.Repositorios.dll
+C:\Users\danie\Source\Repos\Grupo 7 - LDSI\Mecanica.Repositorios\obj\Debug\netcoreapp3.1\Mecanica.Repositorios.pdb
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Projeto\Mecanica.Repositorios\bin\Debug\netcoreapp3.1\Mecanica.Repositorios.deps.json
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Projeto\Mecanica.Repositorios\bin\Debug\netcoreapp3.1\Mecanica.Repositorios.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Projeto\Mecanica.Repositorios\bin\Debug\netcoreapp3.1\Mecanica.Repositorios.pdb
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Projeto\Mecanica.Repositorios\bin\Debug\netcoreapp3.1\Mecanica.Modelos.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Projeto\Mecanica.Repositorios\bin\Debug\netcoreapp3.1\Mecanica.Modelos.pdb
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Projeto\Mecanica.Repositorios\obj\Debug\netcoreapp3.1\Mecanica.Repositorios.csprojAssemblyReference.cache
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Projeto\Mecanica.Repositorios\obj\Debug\netcoreapp3.1\Mecanica.Repositorios.AssemblyInfoInputs.cache
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Projeto\Mecanica.Repositorios\obj\Debug\netcoreapp3.1\Mecanica.Repositorios.AssemblyInfo.cs
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Projeto\Mecanica.Repositorios\obj\Debug\netcoreapp3.1\Mecanica.Repositorios.csproj.CoreCompileInputs.cache
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Projeto\Mecanica.Repositorios\obj\Debug\netcoreapp3.1\Mecanica.Repositorios.csproj.CopyComplete
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Projeto\Mecanica.Repositorios\obj\Debug\netcoreapp3.1\Mecanica.Repositorios.dll
+C:\Users\Filipe\Desktop\Etc\PUC_Documentos\Mecanica\Projeto\Mecanica.Repositorios\obj\Debug\netcoreapp3.1\Mecanica.Repositorios.pdb

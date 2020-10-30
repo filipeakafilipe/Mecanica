@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="App.Views.AcompanhamentoPedidosAtuaisPage"
+             Title="{Binding Title}">
+
+    <StackLayout>
+        <ScrollView>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <CollectionView ItemsSource="{Binding Pedidos}"
+                                SelectionMode="Single"
+                                SelectedItem="{Binding SelectedPedido}"
+                                SelectionChangedCommand="{Binding SelectedPedidoChangeCommand}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Padding="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Row="1" Grid.Column="1"
+                                       Text="{Binding TipoDeServico.Nome}"/>
+                                <Label Grid.Row="2" Grid.Column="1"
+                                       Text="{Binding SLA}"/>
+                                <Label Grid.Row="3" Grid.Column="1"
+                                       Text="{Binding Veiculo.Nome}"/>
+                                <Label Grid.Row="3" Grid.Column="2"
+                                       Text="{Binding Veiculo.Placa}"/>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+        </ScrollView>
+    </StackLayout>
+
+</ContentPage>

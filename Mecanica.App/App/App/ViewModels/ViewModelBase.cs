@@ -1,4 +1,5 @@
-﻿using Prism.Commands;
+﻿using App.Modelos;
+using Prism.Commands;
 using Prism.Mvvm;
 using Prism.Navigation;
 using System;

@@ -1,4 +1,5 @@
 ﻿using App.Modelos;
+using App.Dictionary;
 using App.Services;
 using Prism.Commands;
 using Prism.Mvvm;
@@ -10,6 +11,7 @@ using Xamarin.Forms;
 
 namespace App.ViewModels
 {
+
     public class CriarPerfilPageViewModel : ViewModelBase
     {
         public CriarPerfilPageViewModel(INavigationService navigationService) : base(navigationService)
@@ -51,7 +53,7 @@ namespace App.ViewModels
 
         public string SenhaConfirmada { get; set; }
 
-        private Dictionary<int, string> Roles = new Roles().Nomes;
+        private Dictionary<int, string> Roles = new RoleDictionary().Nomes;
 
         public Command CadastrarCommand { get; }
 

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="App.Views.MeusVeiculosPage"
+             Title="{Binding Title}">
+
+
+
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label FontSize="18" HorizontalTextAlignment="Center" Text="{Binding Quantidade, StringFormat='{0} veículos cadastrados'}" TextColor="Black"></Label>
+
+            <CollectionView ItemsSource="{Binding Veiculos}"
+                                SelectionMode="Single"
+                                SelectedItem="{Binding SelectedVeiculo}"
+                                SelectionChangedCommand="{Binding SelectedVeiculoChangeCommand}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <StackLayout Orientation="Horizontal"  HorizontalOptions="Center" Margin="10,20,0,0">
+                                <StackLayout Orientation="Vertical"  HorizontalOptions="Start" VerticalOptions="Start" >
+                                    <Image HorizontalOptions="Start" Source="car2" WidthRequest="120"></Image>
+                                </StackLayout>
+                                <StackLayout Orientation="Vertical"  HorizontalOptions="Start" VerticalOptions="Center" Margin="15,0,0,0">
+                                    <Label FontSize="18" Text="{Binding Nome}" TextColor="Black" FontAttributes="Bold"></Label>
+                                    <Label Text="{Binding Ano, StringFormat='Ano: {0}'}" FontSize="Medium" VerticalTextAlignment="Center" TextColor="Black" FontAttributes="Bold"></Label>
+                                    <Label Text="{Binding Kilometragem, StringFormat='Kilometragem: {0} Km'}" FontSize="Medium" VerticalTextAlignment="Center" TextColor="Black" FontAttributes="Bold"></Label>
+                                    <Label Text="{Binding Placa, StringFormat='Placa: {0}'}" FontSize="Medium" VerticalTextAlignment="Center" TextColor="Black" FontAttributes="Bold"></Label>
+                                </StackLayout>
+                            </StackLayout>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>

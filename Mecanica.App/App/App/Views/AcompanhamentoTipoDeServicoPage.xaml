@@ -29,7 +29,7 @@
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
-                                <Label Grid.Column="0"
+                                <Label Grid.Row="0" Grid.Column="0"
                                        Text="{Binding Nome}"/>
                             </Grid>
                         </DataTemplate>

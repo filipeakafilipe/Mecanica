@@ -34,8 +34,10 @@
                                 <Label Grid.Row="1" Grid.Column="1"
                                        Text="{Binding TipoDeServico.Nome}"/>
                                 <Label Grid.Row="2" Grid.Column="1"
+                                       Text="{Binding SLA}"/>
+                                <Label Grid.Row="3" Grid.Column="1"
                                        Text="{Binding Veiculo.Nome}"/>
-                                <Label Grid.Row="2" Grid.Column="2"
+                                <Label Grid.Row="3" Grid.Column="2"
                                        Text="{Binding Veiculo.Placa}"/>
                             </Grid>
                         </DataTemplate>

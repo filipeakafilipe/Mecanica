@@ -15,21 +15,11 @@
         <StackLayout Orientation="Vertical">
             <Image Source="logo" WidthRequest="250"></Image>
 
-            <Entry x:Name="txtUser" Placeholder="Usuário" TextColor="Black" ></Entry>
+            <Entry Text="{Binding Usuario}" Placeholder="Usuário" TextColor="Black" ></Entry>
 
-            <Entry x:Name="txtPass" Placeholder="Senha" TextColor="Black" IsPassword="True"></Entry>
-
-            <StackLayout Orientation="Horizontal"  HorizontalOptions="FillAndExpand">
-                <StackLayout Orientation="Vertical"  HorizontalOptions="Start" VerticalOptions="Center">
-                    <CheckBox x:Name="chkLembrar" Color="#2296f3" ></CheckBox>
-                </StackLayout>
-                <StackLayout Orientation="Vertical"  HorizontalOptions="End" VerticalOptions="Center">
-                    <Label Text="Lembrar-se" ></Label>
-                </StackLayout>
-            </StackLayout>
+            <Entry Text="{Binding Senha}" Placeholder="Senha" TextColor="Black" IsPassword="True"></Entry>
 
             <Button x:Name="btnLogin" Text="Entrar" HorizontalOptions="Center" BackgroundColor="#2296f3" TextColor="White" Command="{Binding MenuPageCommand}"></Button>
-
         </StackLayout>
     </ScrollView>
     

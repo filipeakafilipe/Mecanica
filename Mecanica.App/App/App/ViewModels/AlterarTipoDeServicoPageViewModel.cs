@@ -18,7 +18,6 @@ namespace App.ViewModels
 
             AlterarCommand = new Command(async () =>
             {
-
                 var tipoDeServico = new TipoDeServico()
                 {
                     Id = Id,

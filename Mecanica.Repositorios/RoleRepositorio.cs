@@ -1,6 +1,7 @@
 ﻿using Mecanica.Modelos;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Mecanica.Repositorios
@@ -15,6 +16,11 @@ namespace Mecanica.Repositorios
         public Role Get(int id)
         {
             return db.Roles.Where(v => v.Id == id).FirstOrDefault();
+        }
+
+        public List<Role> GetTodos()
+        {
+            return db.Roles.ToList();
         }
 
         public void Adicionar(Role role)
@@ -37,11 +43,14 @@ namespace Mecanica.Repositorios
         {
             var role = Get(id);
 
-            role = novaRole;
+            if(role != null)
+            {
+                role.Nome = novaRole.Nome;
 
-            db.Entry(role).State = EntityState.Modified;
+                db.Entry(role).State = EntityState.Modified;
 
-            db.SaveChanges();
+                db.SaveChanges();
+            }
         }
     }
 }

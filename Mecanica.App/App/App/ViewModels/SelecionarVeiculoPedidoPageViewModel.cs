@@ -33,6 +33,7 @@ namespace App.ViewModels
 
             try
             {
+
                 Veiculos = VeiculoService.GetVeiculosCliente(PerfilId).Result;
             }
             catch

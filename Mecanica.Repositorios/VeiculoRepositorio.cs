@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace Mecanica.Repositorios
 {
-    public class VeiculoRepositorio : BaseRepositorio
+    public class VeiculoRepositorio : BaseRepositorio, IVeiculoRepository<Veiculo>
     {
         public VeiculoRepositorio() : base()
         {
@@ -37,17 +37,20 @@ namespace Mecanica.Repositorios
         {
             var veiculo = Get(id);
 
-            veiculo.Ano = novoVeiculo.Ano;
-            veiculo.Especificacao = novoVeiculo.Especificacao;
-            veiculo.Kilometragem = novoVeiculo.Kilometragem;
-            veiculo.Marca = novoVeiculo.Marca;
-            veiculo.Modelo = novoVeiculo.Modelo;
-            veiculo.Nome = novoVeiculo.Nome;
-            veiculo.Placa = novoVeiculo.Placa;
+            if(veiculo != null)
+            {
+                veiculo.Ano = novoVeiculo.Ano;
+                veiculo.Especificacao = novoVeiculo.Especificacao;
+                veiculo.Kilometragem = novoVeiculo.Kilometragem;
+                veiculo.Marca = novoVeiculo.Marca;
+                veiculo.Modelo = novoVeiculo.Modelo;
+                veiculo.Nome = novoVeiculo.Nome;
+                veiculo.Placa = novoVeiculo.Placa;
 
-            db.Entry(veiculo).State = EntityState.Modified;
+                db.Entry(veiculo).State = EntityState.Modified;
 
-            db.SaveChanges();
+                db.SaveChanges();
+            }
         }
 
         public List<Veiculo> GetTodos()

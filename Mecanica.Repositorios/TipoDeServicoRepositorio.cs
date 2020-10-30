@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace Mecanica.Repositorios
 {
-    public class TipoDeServicoRepositorio : BaseRepositorio
+    public class TipoDeServicoRepositorio : BaseRepositorio, ITipoDeServicoRepository<TipoDeServico>
     {
         public TipoDeServicoRepositorio():base()
         {
@@ -38,12 +38,15 @@ namespace Mecanica.Repositorios
         {
             var tipoDeServico = Get(id);
 
-            tipoDeServico.Nome = novoTipoDeServico.Nome;
-            tipoDeServico.Observacoes = novoTipoDeServico.Observacoes;
+            if (tipoDeServico != null)
+            {
+                tipoDeServico.Nome = novoTipoDeServico.Nome;
+                tipoDeServico.Observacoes = novoTipoDeServico.Observacoes;
 
-            db.Entry(tipoDeServico).State = EntityState.Modified;
+                db.Entry(tipoDeServico).State = EntityState.Modified;
 
-            db.SaveChanges();
+                db.SaveChanges();
+            }
         }
 
         public List<TipoDeServico> GetTodos()

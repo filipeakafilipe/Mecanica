@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="App.Views.MinhasManutencoesPage"
+             Title="{Binding Title}">
+
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label FontSize="18" HorizontalTextAlignment="Center" Text="{Binding Quantidade, StringFormat='{0} manutenções realizadas'}" TextColor="Black"></Label>
+
+            <CollectionView ItemsSource="{Binding Manutencoes}"
+                                SelectionMode="Single"
+                                SelectedItem="{Binding SelectedManutencao}"
+                                SelectionChangedCommand="{Binding SelectedManutencaoChangeCommand}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <StackLayout Orientation="Horizontal"  HorizontalOptions="Center" Margin="10,20,0,0">
+                                <StackLayout Orientation="Vertical"  HorizontalOptions="Start" VerticalOptions="Start" >
+                                    <Image HorizontalOptions="Start" Source="Ferramenta" WidthRequest="120"></Image>
+                                </StackLayout>
+                                <StackLayout Orientation="Vertical"  HorizontalOptions="Start" VerticalOptions="Center" Margin="15,0,0,0">
+                                    <Label FontSize="18" Text="{Binding TipoDeServico}" TextColor="Black" FontAttributes="Bold"></Label>
+                                    <Label Text="{Binding Placa, StringFormat='Placa: {0}'}" FontSize="Medium" VerticalTextAlignment="Center" TextColor="Black" FontAttributes="Bold"></Label>
+                                    <Label Text="{Binding Status, StringFormat='Status: {0}'}" FontSize="Medium" VerticalTextAlignment="Center" TextColor="Black" FontAttributes="Bold"></Label>
+                                    <Label Text="{Binding Valor, StringFormat='Valor: {0}'}" FontSize="Medium" VerticalTextAlignment="Center" TextColor="Black" FontAttributes="Bold"></Label>
+                                </StackLayout>
+                            </StackLayout>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>

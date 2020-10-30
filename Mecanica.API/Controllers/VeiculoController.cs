@@ -13,17 +13,17 @@ namespace Mecanica.API.Controllers
     [ApiController]
     public class VeiculoController : ControllerBase
     {
-        private UnidadeDeTrabalho _context;
+        private readonly IVeiculoRepository<Veiculo> _context;
 
-        public VeiculoController()
+        public VeiculoController(IVeiculoRepository<Veiculo> context)
         {
-            _context = new UnidadeDeTrabalho();
+            _context = context;
         }
 
         [HttpGet("{id}")]
         public ActionResult<Veiculo> GetVeiculo(int id)
         {
-            var veiculo = _context.VeiculoRepositorio.Get(id);
+            var veiculo = _context.Get(id);
 
             if (veiculo == null)
             {
@@ -36,7 +36,7 @@ namespace Mecanica.API.Controllers
         [HttpGet("cliente/{perfilId}")]
         public ActionResult<List<Veiculo>> GetVeiculoCliente(int perfilId)
         {
-            var veiculos = _context.VeiculoRepositorio.GetVeiculoCliente(perfilId);
+            var veiculos = _context.GetVeiculoCliente(perfilId);
 
             if (veiculos == null)
             {
@@ -49,21 +49,37 @@ namespace Mecanica.API.Controllers
         [HttpPost]
         public ActionResult<Veiculo> CriarVeiculo(Veiculo veiculo)
         {
-            _context.VeiculoRepositorio.Adicionar(veiculo);
+            try
+            {
+                _context.Adicionar(veiculo);
 
-            return CreatedAtAction(nameof(GetVeiculo), new { id = veiculo.Id }, veiculo);
+                return CreatedAtAction(nameof(GetVeiculo), new { id = veiculo.Id }, veiculo);
+            }
+            catch
+            {
+                return BadRequest();
+            }
         }
 
         [HttpGet("todos")]
         public ActionResult<List<Veiculo>> GetTodosVeiculos()
         {
-            return _context.VeiculoRepositorio.GetTodos();
+            return _context.GetTodos();
         }
 
         [HttpPut]
-        public void AtualizarPerfil(Veiculo veiculo)
+        public ActionResult AtualizarPerfil(Veiculo veiculo)
         {
-            _context.VeiculoRepositorio.Atualizar(veiculo.Id, veiculo);
+            try
+            {
+                _context.Atualizar(veiculo.Id, veiculo);
+
+                return Ok();
+            }
+            catch
+            {
+                return BadRequest();
+            }
         }
     }
 }

@@ -13,17 +13,17 @@ namespace Mecanica.API.Controllers
     [ApiController]
     public class PerfilController : ControllerBase
     {
-        private UnidadeDeTrabalho _context;
+        private readonly IPerfilRepository<Perfil> _context;
 
-        public PerfilController()
+        public PerfilController(IPerfilRepository<Perfil> context)
         {
-            _context = new UnidadeDeTrabalho();
+            _context = context;
         }
 
         [HttpGet("{id}")]
         public ActionResult<Perfil> GetPerfil(int id)
         {
-            var perfil = _context.PerfilRepositorio.Get(id);
+            var perfil = _context.Get(id);
 
             if (perfil == null)
             {
@@ -36,21 +36,55 @@ namespace Mecanica.API.Controllers
         [HttpGet("todos")]
         public ActionResult<List<Perfil>> GetTodosPerfis()
         {
-            return _context.PerfilRepositorio.GetTodos();
+            return _context.GetTodos();
         }
 
         [HttpPost]
         public ActionResult<Perfil> CriarPerfil(Perfil perfil)
         {
-            _context.PerfilRepositorio.Adicionar(perfil);
+            if (_context.Get(perfil.Login) != null)
+            {
+                return BadRequest();
+            }
 
-            return CreatedAtAction(nameof(GetPerfil), new { id = perfil.Id }, perfil);
+            try
+            {
+                _context.Adicionar(perfil);
+
+                return CreatedAtAction(nameof(GetPerfil), new { id = perfil.Id }, perfil);
+            }
+            catch
+            {
+                return BadRequest();
+            }
         }
 
         [HttpPut]
-        public void AtualizarPerfil(Perfil perfil)
+        public ActionResult AtualizarPerfil(Perfil perfil)
         {
-            _context.PerfilRepositorio.Atualizar(perfil.Id, perfil);
+            try
+            {
+                _context.Atualizar(perfil.Id, perfil);
+
+                return Ok();
+            }
+            catch
+            {
+                return BadRequest();
+            }
+        }
+
+        [HttpGet("logar/{login}/{senha}")]
+        public ActionResult<Perfil> Logar(string login, string senha)
+        {
+            var usuario = _context.Login(login, senha);
+
+            if (usuario == null)
+            {
+                return NotFound();
+            }
+
+            return usuario;
         }
     }
 }

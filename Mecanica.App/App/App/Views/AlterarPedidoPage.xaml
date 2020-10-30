@@ -23,19 +23,30 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Picker Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" Title="Selecionar tipo de serviço" 
+                <Picker Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" Title="Serviço" 
+                        FontSize="18"
+                        Margin="30,0,30,0"
                         ItemDisplayBinding="{Binding Value}"
                         ItemsSource="{Binding PickerItemList}"
                         SelectedItem="{Binding SelectedItem}"/>
-                <Picker Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" Title="Selecionar SLA" 
+                <Picker Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" Title="SLA" 
+                        FontSize="18"
+                        Margin="30,0,30,0"
                         ItemDisplayBinding="{Binding Value}"
                         ItemsSource="{Binding PickerSLAItemList}"
                         SelectedItem="{Binding SelectedSLAItem}"/>
                 <Editor Grid.Column="0" Grid.ColumnSpan="2" Grid.Row ="3"
+                        FontSize="18"
+                        Margin="30,0,30,0"
+                        Placeholder="Valor mão de obra"
                         Text="{Binding ValorMaoDeObra}"/>
                 <Editor Grid.Column="0" Grid.ColumnSpan="2" Grid.Row ="4"
-                        Text="{Binding ValorPecas}"/>
+                        FontSize="18"
+                        Margin="30,0,30,0"
+                        Placeholder="Valor peças"
+                        Text="{Binding ValorPeças}"/>
                 <Button Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="5"
+                        Margin="30,0,30,0"
                         Text="Alterar" BackgroundColor="#2296f3" TextColor="White" Command="{Binding AlterarCommand}"/>
             </Grid>
 

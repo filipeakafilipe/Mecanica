@@ -61,11 +61,11 @@ namespace App.ViewModels
 
         public string ValorPecas { get; set; }
 
-        private Dictionary<int, string> SLAs = new SLAs().Nomes;
+        private Dictionary<int, string> SLAs = new Dictionary<int, string>();
 
         public List<KeyValuePair<int, string>> PickerSLAItemList
         {
-            get => SLAs.ToList();
+            get => new List<KeyValuePair<int, string>>();
         }
 
         private KeyValuePair<int, string> _selectedSLAItem;
@@ -79,7 +79,7 @@ namespace App.ViewModels
 
         public List<KeyValuePair<int, string>> PickerItemList
         {
-            get => new TipoDeServico().PopulaTipos();
+            get => new List<KeyValuePair<int, string>>();
         }
 
         private KeyValuePair<int, string> _selectedItem;

@@ -5,6 +5,8 @@ using App.Views;
 using Xamarin.Essentials.Interfaces;
 using Xamarin.Essentials.Implementation;
 using Xamarin.Forms;
+using App.Modelos;
+using App.Services;
 
 namespace App
 {
@@ -25,9 +27,12 @@ namespace App
             await NavigationService.NavigateAsync("NavigationPage/LoginPage");
         }
 
+        public Perfil UsuarioLogado { get; set; }
+
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.RegisterSingleton<IAppInfo, AppInfoImplementation>();
+            containerRegistry.RegisterSingleton<IUsuarioLogado, UsuarioLogadoService>();
 
             containerRegistry.RegisterForNavigation<NavigationPage>();
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
@@ -48,6 +53,12 @@ namespace App
             containerRegistry.RegisterForNavigation<CriarPedidoPage, CriarPedidoPageViewModel>();
             containerRegistry.RegisterForNavigation<AcompanhamentoPedidoPage, AcompanhamentoPedidoPageViewModel>();
             containerRegistry.RegisterForNavigation<AlterarPedidoPage, AlterarPedidoPageViewModel>();
+            containerRegistry.RegisterForNavigation<PerfilPage, PerfilPageViewModel>();
+            containerRegistry.RegisterForNavigation<MeusVeiculosPage, MeusVeiculosPageViewModel>();
+            containerRegistry.RegisterForNavigation<MinhasManutencoesPage, MinhasManutencoesPageViewModel>();
+            containerRegistry.RegisterForNavigation<MenuMecanicoPage, MenuMecanicoPageViewModel>();
+            containerRegistry.RegisterForNavigation<MenuClientePage, MenuClientePageViewModel>();
+            containerRegistry.RegisterForNavigation<AcompanhamentoPedidosAtuaisPage, AcompanhamentoPedidosAtuaisPageViewModel>();
         }
     }
 }
